@@ -1,0 +1,159 @@
+// Start of Cameroon
+
+.cameroon {
+  background: linear-gradient(to right, #007A5E, #007A5E calc(100% / 3), #CE1126 calc(100% / 3), #CE1126 calc(100% / 3 *2), #FCD116 calc(100% / 3 *2), #FCD116 100%);
+  position: relative;
+}
+
+.cameroon:before {
+  @include shape($content: '\2605');
+  @include center;
+  text-align: center;
+  color: #FCD116;
+  font-size: 26px;
+  top: 35%;
+}
+
+// End of Cameroon
+
+// Start of Central African Republic
+
+.central-african-republic {
+  background:
+  linear-gradient(to right, transparent 0%, transparent 42%, #D21034 42%, #D21034 58%, transparent 58%, transparent 100%),
+  linear-gradient(to bottom, #003082, #003082 25%, white 25%, white 50%, #289728 50%, #289728 75%, #FFCE00 75%, #FFCE00 100% );
+  position: relative;
+}
+
+.central-african-republic:before {
+  @include shape($content: '\2605');
+  @include center;
+  color: #FFCE00;
+  font-size: 22px;
+  left: 15px;
+}
+// End of Central African Republic
+
+// Start of Chad
+
+.chad {
+  background:
+  linear-gradient(to right, #002664, #002664 calc(100% / 3), #FECB00 calc(100% / 3), #FECB00 calc(100% / 3 * 2), #C60C30 calc(100% / 3 * 2), #C60C30 100%);
+}
+
+// End of Chad
+
+// Start of Chile
+
+.chile {
+  background:
+  linear-gradient(to bottom, white, white 50%, #D52B1E 50%, #D52B1E 100%);
+  position: relative;
+}
+
+.chile:after {
+  @include shape($content: '\2605');
+  box-sizing: border-box;
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  background: #0039A6;
+  height: $half-height;
+  width: 60px;
+  left: 0;
+  padding-top: 10px;
+}
+
+// End of Chile
+
+// Start of Colombia
+
+.colombia {
+  background:
+  linear-gradient(to bottom, #FCD116 0%, #FCD116 50%, #003893 50%, #003893 75%, #CE1126 75%, #CE1126 100%);
+}
+
+// End of Colombia
+
+// Start of Comoros
+
+.comoros {
+  background:
+  linear-gradient(146deg, #3D8E33 25%, transparent 15%) 0 -60px,
+  linear-gradient(34deg, #3D8E33 25%, transparent 15%) 0 -60px,
+  linear-gradient(to bottom, #FFC61E 0%, #FFC61E 25%, white 25%, white 50%, #CE1025 50%, #CE1126 75%, #3A75C4 75%, #3A75C4 100%);
+  position: relative;
+  background-size: 180px 120px;
+}
+
+.comoros:before {
+  @include shape;
+  @include makeCircle;
+  height: 50px;
+  width:  50px;
+  left: 20px;
+  top: 36px;
+  box-shadow: -10px 0 0 0 white;
+}
+
+.comoros:after {
+  @include shape($content: '★  ★  ★  ★');
+  color: white;
+  width: 8px;
+  font-size: 8px;
+  top: 40px;
+  left: 34px;
+}
+
+// End of Comoros
+
+// start of Costa Rica
+
+.costa-rica {
+  background:
+  linear-gradient(to bottom, #002A7F 15%, white 15%, white 35%, #CE1126 35%, #CE1126 65%, white 65%, white 85%, #002B7F 85%, #002B7F 100%);
+}
+
+// End of Costa Rica
+
+// Start of Cote d'Ivoire
+
+.cote-d-ivoire {
+  background:
+  linear-gradient(to right, #F77F00 calc(100% / 3), white calc(100% / 3), calc(100% / 3 * 2), #009E60 calc(100% / 3 * 2), #009E60 100%);
+}
+
+// End of Cote d'Ivoire
+
+// Start of Cuba
+
+.cuba {
+  background:
+  linear-gradient(146deg, #CF142B 25%, transparent 15%) 0 -60px,
+  linear-gradient(34deg, #CF142B 25%, transparent 15%) 0 -60px,
+  linear-gradient(to bottom, #002A8F 20%, white 20%, white 40%, #002A8F 40%, #002A8F 60%, white 60%, white 80%, #002A8F 80%, #002A8F 100%);
+  background-size: 180px 120px;
+  position: relative;
+}
+
+.cuba:before {
+  @include shape($content: '★');
+  color: white;
+  font-size: 24px;
+  top: 42px;
+  left: 20px;
+}
+
+// End of Cuba
+
+// Start of Czech Republic
+
+.czech-republic {
+  background:
+  linear-gradient(146deg, #11457E 25%, transparent 15%) 0 -60px,
+  linear-gradient(34deg, #11457E 25%, transparent 15%) 0 -60px,
+  linear-gradient(to bottom, white 50%, #D7141A 50%);
+  background-size: 180px 120px;
+}
+
+// End of Czech Republic

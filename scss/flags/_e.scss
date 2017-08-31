@@ -1,0 +1,31 @@
+// Start of East Timor
+
+.east-timor {
+  background:
+  linear-gradient(145deg, black 25%, transparent 15%) 0 -60px,
+  linear-gradient(34deg, black 25%, transparent 15%) 0 -60px,
+  linear-gradient(155deg, #FFC726 30%, transparent 15%) 0 -60px,
+  linear-gradient(25deg, #FFC726 30%, transparent 15%) 0 -60px,
+  #DC241F;
+  position: relative;
+}
+
+.east-timor:before {
+  @include shape($content: '★');
+  color: white;
+  font-size: 36px;
+  top: 36px;
+  left: 16px;
+  transform: rotate(115deg);
+}
+
+// End of East Timor
+
+// Start of Estonia
+
+.estonia {
+  background:
+  linear-gradient(to bottom, #4891D9 calc(100% / 3), black calc(100% / 3), black calc(100% / 3 * 2), white calc(100% / 3 * 2));
+}
+
+// End of Estonia

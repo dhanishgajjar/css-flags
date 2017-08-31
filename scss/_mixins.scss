@@ -1,0 +1,19 @@
+
+// This is for creating empty / or specific psuedo objects
+@mixin shape($position: absolute, $content: '') {
+  position: $position;
+  content: $content;
+}
+
+// Simple mixin to turn any square into a circle
+@mixin makeCircle {
+  border-radius: 50%;
+}
+
+// This is for center aligning the psuedo elements, which are absolute in position
+@mixin center {
+  left: 0;
+  margin-left: auto;
+  right: 0;
+  margin-right: auto;
+}

@@ -1,0 +1,114 @@
+// Start of Madagascar
+
+.madagascar {
+  background:
+  linear-gradient(to right, white 30%, transparent 30%),
+  linear-gradient(to bottom, #FC3D32 50%, #007E3A 50%);
+}
+
+// End of Madagascar
+
+// Start of Malaysia
+
+.malaysia {
+  background:
+  repeating-linear-gradient(to bottom, #BF0A30, #BF0A30 calc(120px / 13), white (120px / 13), white (120px / 13 * 2));
+  position: relative;
+}
+
+.malaysia:before {
+  @include shape($content: '✹');
+  color: #FFCC00;
+  font-size: 48px;
+  box-sizing: border-box;
+  background:
+  radial-gradient(65px at 50% 50%, #010066 0, #010066 35%, transparent 35%, transparent 100%),
+  radial-gradient(75px at 42% 50%, #FFCC00 0, #FFCC00 35%, transparent 35%, transparent 100%),
+  #010066;
+  text-align: center;
+  padding-top: 5px;
+  padding-left: 36px;
+  width: calc(180px / 2);
+  height: calc(120px / 13 * 7);
+}
+
+// End of Malaysia
+
+// Start of Maldives
+
+.maldives {
+  border: 30px solid #D21034;
+  background:
+  radial-gradient(55px at 55% 50%, #007E3A 0, #007E3A 35%, transparent 35%, transparent 100%),
+  radial-gradient(60px at 50% 50%, white 0, white 35%, transparent 35%, transparent 100%),
+  #007E3A;
+}
+
+// End of Maldives
+
+// Start of Mali
+
+.mali {
+  background:
+  linear-gradient(to right, #14B53A calc(100% / 3), #FCD116 calc(100% / 3), #FCD116 calc(100% / 3 * 2), #CE1126 calc(100% / 3 * 2));
+}
+
+// End of Mali
+
+// Start of Mauritania
+
+.mauritania {
+  background:
+  radial-gradient(120px at 50% 30%, #006233 0, #006233 35%, transparent 35%, transparent 100%),
+  radial-gradient(120px at 50% 40%, #FFC400 0, #FFC400 35%, transparent 35%, transparent 100%),
+  #006233;
+  position: relative;
+}
+
+.mauritania:before {
+  @include shape($content: '★');
+  @include center;
+  font-size: 24px;
+  color: #FFC400;
+  text-align: center;
+  top: 15%;
+}
+
+// End of Mauritania
+
+// Start of Mauritius
+
+.mauritius {
+  background:
+  linear-gradient(to bottom, #EA2839 25%, #1A206D 25%, #1A206D 50%, #FFD500 50%, #FFD500 75%, #00A551 75%);
+}
+
+// End of Mauritius
+
+// Start of Monaco
+
+.monaco {
+  background:
+  linear-gradient(to bottom, #CE1126 50%, white 50%);
+}
+
+// End of Monaco
+
+// Start of Myanmar
+
+.myanmar {
+  background:
+  linear-gradient(to bottom, #FECB00 calc(100% / 3), #34B233 calc(100% / 3), #34B233 calc(100% / 3 * 2), #EA2839 calc(100% / 3 * 2));
+  position: relative;
+}
+
+.myanmar:before {
+  @include shape($content: '★');
+  @include center;
+  color: white;
+  font-size: 64px;
+  text-align: center;
+  top: 10px;
+}
+
+// End of Myanmar

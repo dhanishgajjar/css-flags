@@ -1,0 +1,17 @@
+// Start of Vietnam
+
+.vietnam {
+  background: #DA251D;
+  position: relative;
+}
+
+.vietnam:before {
+  @include shape($content: '★');
+  @include center;
+  text-align: center;
+  color: #FFFF00;
+  font-size: 64px;
+  top: 14px;
+}
+
+// End of Vietnam

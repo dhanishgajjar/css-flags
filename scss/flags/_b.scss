@@ -1,0 +1,174 @@
+// Start of Bahamas
+
+.bahamas {
+  background:
+  linear-gradient(146deg, black 25%, transparent 15%) 0 -60px,
+  linear-gradient(34deg, black 25%, transparent 15%) 0 -60px,
+  linear-gradient(to bottom, #00ABC9, #00ABC9 calc(100% / 3), #FAE042 calc(100% / 3), #FAE042 calc(100% / 3 * 2), #00ABC9 calc(100% / 3 * 2), #00ABC9 100%);
+  background-size: 180px 120px;
+}
+
+// End of Bahamas
+
+// start of Bahrain
+
+.bahrain {
+  background: linear-gradient(90deg, white, white 25%, #CE1126 25%, #CE1126 100%);
+  position: relative;
+}
+
+.bahrain:before {
+  @include shape;
+  width: 24px;
+  height: 100%;
+  background:
+  linear-gradient(154deg, white 32%, transparent 31%) 0 12px,
+  linear-gradient(24deg, white 32%, transparent 31%) 0 36px;
+  background-size: 24px 24px;
+  left: 44px;
+  top: 0;
+}
+
+// start of Bahrain
+
+// Start of Bangladesh
+
+.bangladesh {
+  background:
+  radial-gradient(110px at 40% 50%, #F42A41 0, #F42A41 35%, transparent 35%, transparent 100%),
+  #006A4E;
+}
+
+// End of Bangladesh
+
+// Start of Barbados
+
+.barbados {
+  background: linear-gradient(to right, #00267F, #00267F calc(100% / 3), #FFC726 calc(100% / 3), #FFC726 calc(100% / 3 *2), #00267F calc(100% / 3 *2), #00267F 100%);
+  position: relative;
+}
+
+.barbados:before {
+  @include shape($content: "♆");
+  font-size: 3em;
+  left: calc(50% - 18px);
+  top: 26px;
+}
+
+// End of Barbados
+
+// Start of Belgium
+
+.belgium {
+  background: linear-gradient(to right, black, black calc(100% / 3), #FAE042 calc(100% / 3), #FAE042 calc(100% / 3 *2), #ED2939 calc(100% / 3 *2), #ED2939 100%);
+}
+
+// End of Belgium
+
+// Start of Benin
+
+.benin {
+  background:
+  linear-gradient(to right, #008751, #008751 40%, transparent 40%, transparent 100%),
+  linear-gradient(to bottom, #FCD116, #FCD116 50%, #E8112D 50%, #E8112D 100%);
+}
+
+// End of Benin
+
+// Start of Bolivia
+
+.bolivia {
+  background: linear-gradient(to bottom, #D52B1E, #D52B1E calc(100% / 3), #FFE000 calc(100% / 3), #FFE000 calc(100% / 3 *2), #007934 calc(100% / 3 *2), #007934 100%);
+}
+
+// End of Bolivia
+
+// Start of Botswana
+
+.botswana {
+  background: linear-gradient(0deg, #75AADB, #75AADB 35%, white 35%, white 40%, black 40%, black 60%, white 60%, white 65%, #75AADB 65%, #75AADB 100%);
+}
+
+// End of Botswana
+
+// Start of Brazil
+
+.brazil {
+  background:
+  linear-gradient(149deg, #009B3A 30%, transparent 25%),
+  linear-gradient(-149deg, #009B3A 30%, transparent 25%),
+  linear-gradient(-30deg, #009B3A 30%, transparent 25%),
+  linear-gradient(30deg, #009B3A 30%, transparent 25%), 
+  radial-gradient(90px at 50% 50%, transparent 0, transparent 35%, #FEDF00 35%, #FEDF00 100%),
+  radial-gradient(180px at 40% 96%, transparent 0, transparent 35%, white 35%, white 39%, transparent 39%, transparent 100%),
+  #002776;
+  overflow: hidden;
+}
+
+// End of Brazil
+
+// Start of Bulgaria
+
+.bulgaria {
+  background: linear-gradient(to bottom, white, white calc(100% / 3), #00966E calc(100% / 3), #00966E calc(100% / 3 *2), #D62612 calc(100% / 3 *2), #D62612 100%);
+}
+
+// End of Bulgaria
+
+// Start of Burkina Faso
+
+.burkina {
+  background: linear-gradient(to bottom, #EF2B2D, #EF2B2D 50%, #009E49 50%, #009E49 100%);
+  position: relative;
+}
+
+.burkina:after {
+  @include shape($content: '\2605');
+  @include center;
+  text-align: center;
+  top: calc(50% - 26px);
+  font-size: 36px;
+  color: #FCD116;
+}
+
+// End of Burkina Faso
+
+// Start of Burundi
+
+.burundi {
+  background:
+  radial-gradient(100px at 50% 50%, white 0, white 35%, transparent 35%, transparent 100%),
+  linear-gradient(146deg, #CE1126 20%, transparent 15%) 90px -118px,
+  linear-gradient(-146deg, #CE1126 20%, transparent 15%) 90px -118px,
+  linear-gradient(-34deg, #CE1126 20%, transparent 15%) 90px 118px,
+  linear-gradient(34deg, #CE1126 20%, transparent 15%) 90px 118px,
+  linear-gradient(146deg, #1EB53A 20%, transparent 15%) 0 -60px,
+  linear-gradient(34deg, #1EB53A 20%, transparent 15%) 0 -60px,
+  linear-gradient(-146deg, #1EB53A 20%, transparent 15%) 180px -60px,
+  linear-gradient(-34deg, #1EB53A 20%, transparent 15%) 180px -60px,
+  #FFFFFF;
+  position: relative;
+}
+
+.burundi:before {
+  @include shape($content: '✶');
+  font-size: 18px;
+  -webkit-text-stroke: .5px #1EB53A;
+  width: 180px;
+  height: 120px;
+  text-align: center;
+  top: 36px;
+  color: #CE1126;
+}
+
+.burundi:after {
+  @include shape($content: "✶\00a0 \00a0 \00a0 ✶");
+  font-size: 18px;
+  -webkit-text-stroke: .5px #1EB53A;
+  width: 180px;
+  height: 120px;
+  text-align: center;
+  top: 60px;
+  color: #CE1126;
+}
+// End of Burundi

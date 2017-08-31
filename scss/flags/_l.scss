@@ -1,0 +1,80 @@
+// Start of Laos
+
+.laos {
+  background:
+  radial-gradient(70px at 50% 50%, white 0, white 35%, transparent 35%, transparent 100%),
+  linear-gradient(to bottom, #CE1126 25%, #002868 25%, #002868 75%, #CE1126 75%);
+}
+
+// End of Laos
+
+// Start of Latvia
+
+.latvia {
+  background:
+  linear-gradient(to bottom, #9E3039 40%, white 40%, white 60%, #9E3039 60%);
+}
+
+// End of Latvia
+
+// Start of Liberia
+
+.liberia {
+  background:
+  repeating-linear-gradient(to bottom, #BF0A30, #BF0A30 calc(120px / 11), white (120px / 11), white (120px / 11 * 2));
+  position: relative;
+}
+
+.liberia:before {
+  @include shape($content: '★');
+  color: white;
+  font-size: 24px;
+  box-sizing: border-box;
+  background: #002868;
+  text-align: center;
+  padding-top: 10px;
+  width: calc(120px / 11 * 5);
+  height: calc(120px / 11 * 5);
+}
+
+// End of Liberia
+
+// Start of Libya
+
+.libya {
+  background:
+  radial-gradient(45px at 52% 50%, black 0, black 35%, transparent 35%, transparent 100%),
+  radial-gradient(50px at 50% 50%, white 0, white 35%, transparent 35%, transparent 100%),
+  linear-gradient(to bottom, #E70013 25%, black 25%, black 75%, #239E46 65%);
+  position: relative;
+}
+
+.libya:before {
+  @include shape($content: '★');
+  @include center;
+  color: white;
+  text-align: center;
+  top: 40%;
+  left: 20%;
+  transform: rotate(45deg);
+}
+
+// End of Libya
+
+// Start of Lithuania
+
+.lithuania {
+  background:
+  linear-gradient(to bottom, #FDB913 calc(100% / 3), #006A44 calc(100% / 3), #006A44 calc(100% / 3 * 2), #C1272D calc(100% / 3 * 2));
+}
+
+// End of Lithuania
+
+// Start of Luxemborg
+
+.luxembourg {
+  background:
+  linear-gradient(to bottom, #ED2939 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #00A1DE calc(100% / 3 * 2));
+}
+
+// End of Luxemborg

@@ -1,0 +1,89 @@
+// Start of Republic of China
+
+.republic-of-china {
+  background:
+  #FE0000;
+  position: relative;
+}
+
+.republic-of-china:before {
+  @include shape($content: '✹');
+  box-sizing: border-box;
+  color: white;
+  background: #000095;
+  padding-left: 20px;
+  top: 0;
+  width: 90px; height: 60px;
+  font-size: 56px;
+}
+
+.republic-of-china:after {
+  @include shape;
+  @include makeCircle;
+  height: 20px;
+  width: 20px;
+  background: white;
+  border: 2px solid #000095;
+  top: 20px;
+  left: 30px;
+}
+
+// End of Republic of China
+
+// Start of Republic of Congo
+
+.republic-of-congo {
+  background:
+  linear-gradient(135deg,#009543 40%,#FBDE4A 40%, #FBDE4A 60%, #D21034 60%, #DC241F 60%);
+  position: relative;
+}
+
+// End of Republic of Congo
+
+// Start of Romania
+
+.romania {
+  background:
+  linear-gradient(to right, #002B7F calc(100% / 3), #FCD116 calc(100% / 3), #FCD116 calc(100% / 3 * 2), #CE1126 calc(100% / 3 * 2));
+}
+
+// End of Romania
+
+// Start of Russia
+
+.russia {
+  background:
+  linear-gradient(to bottom, white calc(100% / 3), #0039A6 calc(100% / 3), #0039A6 calc(100% / 3 * 2), #D52B1E calc(100% / 3 * 2));
+}
+
+// End of Russia
+
+// Start of Rwanda
+
+.rwanda {
+  background:
+  linear-gradient(to bottom, #00A1DE 50%, #FAD201 50%, #FAD201 75%, #20603D 75%);
+  position: relative;
+}
+
+.rwanda:before {
+  @include shape($content: '✺');
+  right: 20px;
+  box-sizing: border-box;
+  color: #E5BE01;
+  font-size: 36px;
+  top: 10px;
+}
+
+.rwanda:after {
+  @include shape;
+  @include makeCircle;
+  height: 13px;
+  width: 13px;
+  background: #E5BE01;
+  border: 1px solid #00A1DE;
+  top: 23px;
+  right: 26px;
+}
+
+// End of Rwanda

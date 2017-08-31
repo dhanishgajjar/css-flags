@@ -1,0 +1,24 @@
+// Start of Western Sahara
+
+.western-sahara {
+  background:
+  radial-gradient(48px at 53% 50%, white 35%, transparent 0),
+  radial-gradient(50px at 50% 50%, #D21034 35%, transparent 0),
+  linear-gradient(135deg, #D21034 20%, transparent 0) 0 -60px,
+  linear-gradient(45deg,#D21034 20%, transparent 0) 0 -60px,
+  linear-gradient(to bottom, black calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #007229 calc(100% / 3 * 2));
+  background-size: 180px 120px;
+  position: relative;
+}
+
+.western-sahara:before {
+  @include shape($content: '★');
+  @include center;
+  text-align: center;
+  font-size: 20px;
+  color: #D21034;
+  top: 46px;
+  left: 6px;
+}
+
+// End of Western Sahara

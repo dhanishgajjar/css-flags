@@ -1,0 +1,49 @@
+// Start of Democratic Republic of Congo
+
+.democratic-republic-of-congo {
+  background:
+  linear-gradient(146deg,#007FFF 0%, #007FFF 45%, #F7D618 45%, #F7D618 50%, #CE1021 50%, #CE1021 60%, #F7D618 60%, #F7D618 65%, #007FFF 65%, #007FFF 100% );
+  position: relative;
+}
+
+.democratic-republic-of-congo:before {
+  @include shape($content: '★');
+  color: #F7D618;
+  font-size: 36px;
+  top: 10px;
+  left: 20px;
+}
+
+// End of Democratic Republic of Congo
+
+// Start of Denmark
+
+.denmark {
+  background:
+  linear-gradient(to bottom, transparent 40%, white 40%, white 55%, transparent 55%, transparent 100%),
+  linear-gradient(to right, transparent 30%, white 30%, white 40%, transparent 40%, transparent 100%),
+  #C60C30;
+}
+
+// End of Denmark
+
+// Start of Djibouti
+
+.djibouti {
+  background:
+  linear-gradient(146deg, white 25%, transparent 15%) 0 -60px,
+  linear-gradient(34deg, white 25%, transparent 15%) 0 -60px,
+  linear-gradient(to bottom, #6AB2E7 50%, #12AD2B 50%);
+  background-size: 180px 120px;
+  position: relative;
+}
+
+.djibouti:before {
+  @include shape($content: '★');
+  color: #D7141A;
+  font-size: 30px;
+  top: 40px;
+  left: 16px;
+}
+
+// End of Djibouti

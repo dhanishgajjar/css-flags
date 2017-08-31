@@ -1,0 +1,218 @@
+// Start of Saint Kitts and Nevis
+
+.saint-kitts-and-nevis {
+  background:
+  linear-gradient(145deg,#009E49 35%, #FCD116 35%, #FCD116 40%, black 40%, black 60%, #FCD116 60%, #FCD116 65%, #CE1126 65%);
+  position: relative;
+}
+
+.saint-kitts-and-nevis:before, .saint-kitts-and-nevis:after {
+  @include shape($content: '★');
+  color: white;
+  font-size: 30px;
+  transform: rotate(42deg);
+}
+
+.saint-kitts-and-nevis:before {
+  right: 40px;
+  top: 16px;
+}
+
+.saint-kitts-and-nevis:after {
+  left: 40px;
+  top: 62px;
+}
+
+// End of Saint Kitts and Nevis
+
+// Start of Saint Lucia
+
+.saint-lucia {
+  background:
+  linear-gradient(-45deg, #FCD116 14%, transparent 0) -89px -10px,
+  linear-gradient(45deg, #FCD116 14%, transparent 0) 89px -10px,
+  linear-gradient(-65deg, black 16%, transparent 0) -89px -10px,
+  linear-gradient(65deg, black 16%, transparent 0) 89px -10px,
+  linear-gradient(-65deg, white 18%, transparent 0) -89px -10px,
+  linear-gradient(65deg, white 18%, transparent 0) 89px -10px,
+  #66CCFF;
+}
+
+// End of Saint Lucia
+
+// Start of Sao Tome and Principe
+
+.sao-tome-and-principe {
+  background:
+  linear-gradient(135deg, #D21034 20%, transparent 0) 0 -60px,
+  linear-gradient(45deg, #D21034 20%, transparent 0) 0 -60px,
+  linear-gradient(to bottom,#12AD2B calc(100% / 3), #FFCE00 calc(100% / 3), #FFCE00 calc(100% / 3 * 2), #12AD2B calc(100% / 3 * 2));
+  background-size: 180px 120px;
+  position: relative;
+}
+
+.sao-tome-and-principe:before {
+  @include shape($content: '★\00a0 \00a0 ★');
+  color: black;
+  font-size: 30px;
+  right: 12px;
+  top: 38px;
+}
+
+// End of Sao Tome and Principe
+
+// Start of Senegal
+
+.senegal {
+  background:
+  linear-gradient(to right, #00853F calc(100% / 3), #FDEF42 calc(100% / 3), #FDEF42 calc(100% / 3 * 2), #E31B23 calc(100% / 3 * 2));
+  position: relative;
+}
+
+.senegal:before {
+  @include shape($content: '★');
+  @include center;
+  text-align: center;
+  color: #00853F;
+  font-size: 36px;
+  top: 30%;
+}
+
+// End of Senegal
+
+// Start of Seychelles
+
+.seychelles {
+  background:
+  linear-gradient(170deg, transparent 79%, #007A3D 55%),
+  linear-gradient(160deg, transparent 65%, white 45%),
+  linear-gradient(141deg, transparent 45%, #D62828 45%),
+  linear-gradient(120deg, transparent 27%, #FCD856 25%),
+  #003F87;
+}
+
+// End of Seychelles
+
+// Start of Sierra Leone
+
+.sierra-leone {
+  background:
+  linear-gradient(to bottom, #1EB53A calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #0072C6 calc(100% / 3 * 2));
+}
+
+// End of Sierra Leone
+
+// Start of Somalia
+
+.somalia {
+  background: #4189DD;
+  position: relative;
+}
+
+.somalia:before {
+  @include shape($content: '★');
+  @include center;
+  text-align: center;
+  color: white;
+  font-size: 44px;
+  top: 24px;
+}
+
+// End of Somalia
+
+// Start of South Sudan
+
+.south-sudan {
+  background:
+  linear-gradient(146deg, #0F47AF 25%, transparent 0) 0 -60px,
+  linear-gradient(34deg, #0F47AF 25%, transparent 0) 0 -60px,
+  linear-gradient(to bottom,black 30%, white 30%, white 35%, #DA121A 35%, #DA121A 65%, white 65%, white 70%,#078930 70%);
+  background-size: 180px 120px;
+  position: relative;
+}
+
+.south-sudan:before {
+  @include shape($content: '★');
+  color: #FCDD09;
+  font-size: 30px;
+  top: 38px;
+  left: 18px;
+  transform: rotate(45deg);
+}
+
+// End of South Sudan
+
+// Start of Sudan
+
+.sudan {
+  background:
+  linear-gradient(148deg, #007229 25%, transparent 0) 0 -60px,
+  linear-gradient(33deg, #007229 25%, transparent 0) 0 -60px,
+  linear-gradient(to bottom, #D21034 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), black calc(100% / 3 * 2));
+  background-size: 180px 120px;
+}
+
+// End of Sudan
+
+// Start of Suriname
+
+.suriname {
+  background:
+  linear-gradient(to bottom, #377E3F 20%, white 20%, white 30%, #B40A2D 30%, #B40A2D 70%, white 70%, white 80%, #377E3F 80%);
+  position: relative;
+}
+
+.suriname:before {
+  @include shape($content: '★');
+  @include center;
+  text-align: center;
+  color: #ECC81D;
+  font-size: 40px;
+  top: 31px;
+}
+
+// End of Suriname
+
+// Start of Sweden
+
+.sweden {
+  background:
+  linear-gradient(to right, transparent 30%, #FECC00 30%, #FECC00 45%, transparent 0),
+  linear-gradient(to bottom, transparent 38%, #FECC00 38%, #FECC00 59%, transparent 0),
+  #006AA7;
+}
+
+// End of Sweden
+
+// Start of Switzerland
+
+.switzerland {
+  background:
+  linear-gradient(to bottom, transparent calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), transparent 0),
+  linear-gradient(to right, transparent calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), transparent 0),
+  #FF0000;
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  background-position: 50px 20px;
+}
+
+// End of Switzerland
+
+// Start of Syria
+
+.syria {
+  background:
+  linear-gradient(to bottom, #CE1126 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), black calc(100% / 3 * 2));
+  position: relative;
+}
+
+.syria:before {
+  @include shape($content: '★\00a0 \00a0 \00a0 \00a0 \00a0 \00a0 ★');
+  @include center;
+  text-align: center;
+  color: #007A3D;
+  font-size: 26px;
+  top: 40px;
+}
+
+// End of Syria

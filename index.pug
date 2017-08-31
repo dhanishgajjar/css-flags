@@ -1,0 +1,21 @@
+doctype html
+html(lang='en')
+  head
+    title Single Div Pure CSS Flags
+    link(href="css/style.css" rel="stylesheet")
+  body
+    div.container
+
+      h1 Single Div Pure CSS Flags
+
+      a(href="https://instagram.com/dhanishgajjar" target="_blank") Made by @dhanishgajjar
+
+      ul
+      
+        - var countries = ["algeria", "armenia","austria","azerbaijan","bahamas","bahrain","bangladesh", "barbados", "belgium", "benin", "bolivia", "botswana", "brazil", "bulgaria", "burkina faso", "burundi", "cameroon", "central-african-republic", "chad", "chile", "colombia", "comoros", "costa-rica", "cote-d-ivoire", "cuba", "czech-republic", "democratic-republic-of-congo", "denmark", "djibouti", "east-timor", "estonia", "finland", "france", "gabon", "the-gambia", "germany", "ghana", "greece", "guinea", "guinea-bissau", "guyana", "hungary", "iceland", "indonesia", "iran", "iraq", "ireland", "israel", "italy", "jamaica", "japan", "kuwait", "laos", "latvia", "liberia", "libya", "lithuania", "luxembourg", "madagascar", "malaysia", "maldives", "mali", "mauritania", "mauritius", "monaco", "myanmar", "namibia", "nauru", "nepal", "the-netherlands", "niger", "nigeria", "north-korea", "norway", "pakistan", "palau", "panama", "peru", "poland", "qatar", "republic-of-china", "republic-of-congo", "romania", "russia", "rwanda", "saint-kitts-and-nevis", "saint-lucia", "sao-tome-and-principe", "senegal", "seychelles", "sierra-leone", "somalia", "south-sudan", "sudan", "suriname", "sweden", "switzerland", "syria", "tanzania", "thailand", "togo", "tonga", "trinidad-and-tobago", "tunisia", "turkey", "ukraine", "uae", "the-united-kingdom", "vietnam", "western-sahara", "yemen"]
+
+        each country, i in countries
+          li
+            h2=(i+1)
+            div(class="flag " + country)
+            h3= country.replace(/-/g, ' ')

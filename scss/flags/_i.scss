@@ -1,0 +1,104 @@
+@import url(//fonts.googleapis.com/earlyaccess/notokufiarabic.css);
+
+// Start of Iceland
+
+.iceland {
+  background:
+  linear-gradient(to bottom, transparent 43%, #D72828 43%, #D72828 54%, transparent 54%),
+  linear-gradient(to right, transparent 34%, #D72828 34%, #D72828 41%, transparent 41%),
+  linear-gradient(to right, transparent 30%, white 30%, white 45%, transparent 45%),
+  linear-gradient(to bottom, transparent 38%, white 38%, white 59%, transparent 59%),
+  #003897;
+}
+
+// End of Iceland
+
+// Start of Indonesia
+
+.indonesia {
+  background:
+  linear-gradient(to bottom, #CE1126 50%, white 50%);
+}
+
+// End of Indonesia
+
+// Start of Iran
+
+.iran {
+  background:
+  linear-gradient(to bottom, #239F40 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #DA0000 calc(100% / 3 * 2));
+  position: relative;
+}
+
+.iran:before {
+  @include shape($content: '☫');
+  @include center;
+  font-size: 44px;
+  text-align: center;
+  font-weight: bold;
+  color: #DA0000;
+  top: 22%;
+}
+
+// End of Iran
+
+// Start of Iraq
+
+.iraq {
+  background:
+  linear-gradient(to bottom, #CE1126 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), black calc(100% / 3 * 2));
+  position: relative;
+}
+
+.iraq:before {
+  @include shape($content: 'الله أكبر');
+  @include center;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #449D71;
+  top: 36%;
+}
+
+// End of Iraq
+
+// Start of Ireland
+
+.ireland {
+  background:
+  linear-gradient(to right, #169B62 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #FF883E calc(100% / 3 * 2));
+}
+
+// End of Ireland
+
+// Start of Israel
+
+.israel {
+  background:
+  linear-gradient(to bottom, transparent 15%, #0038B8 15%, #0038B8 30%, transparent 30%, transparent 70%, #0038B8 70%, #0038B8 85%, transparent 85%),
+  white;
+  position: relative;
+}
+
+.israel:before {
+  @include shape($content: '✡');
+  @include center;
+  text-align: center;
+  top: 28%;
+  font-size: 48px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px #0038B8;
+  color: #0038B8;
+}
+
+// End of Israel
+
+// Start of Italy
+
+.italy {
+  background:
+  linear-gradient(to right, #009246 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #CE2B37 calc(100% / 3 * 2));
+}
+
+// End of Italy

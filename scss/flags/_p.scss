@@ -1,0 +1,78 @@
+// Start of Pakistan
+
+.pakistan {
+  background:
+  radial-gradient(90px at 71% 42%, #01411C, #01411C 35%, transparent 35%, transparent 100%),
+  radial-gradient(100px at 65% 50%, white, white 35%, transparent 35%, transparent 100%),
+  linear-gradient(to right, white 30%, #01411C 30%);
+  position: relative;
+}
+
+.pakistan:before {
+  @include shape($content: '★');
+  color: white;
+  transform: rotate(40deg);
+  font-size: 24px;
+  right: 30px;
+  top: 25px;
+}
+
+// End of Pakistan
+
+// Start of Palau
+
+.palau {
+  background:
+  radial-gradient(100px at 40% 50%, #FFDE00, #FFDE00 35%, transparent 35%, transparent 100%),
+  #4AADD6;
+}
+
+// End of Palau
+
+// Start of Panama
+
+.panama {
+  background:
+  linear-gradient(90deg, #005293 50%, transparent 50%),
+  linear-gradient(#D21034 50%, transparent 50%),
+  white;
+  position: relative;
+}
+
+.panama:before, .panama:after {
+  @include shape($content: '★');
+  box-sizing: border-box;
+  background: white;
+  font-size: 32px;
+  padding-left: 15%; padding-top: 4%;
+  width: 89px; height: 59px;
+}
+
+.panama:before {
+  color: #005293;
+}
+
+.panama:after {
+  right: 0; bottom: 0;
+  color: #D21034;
+}
+
+// End of Panama
+
+// Start of Peru
+
+.peru {
+  background:
+  linear-gradient(to right, #D91023 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #D91023 calc(100% / 3 * 2));
+}
+
+// End of Peru
+
+// Start of Poland
+
+.poland {
+  background:
+  linear-gradient(to bottom, white 50%, #DC143C 50%);
+}
+
+// End of Poland

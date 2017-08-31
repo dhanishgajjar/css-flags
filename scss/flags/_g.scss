@@ -1,0 +1,110 @@
+// Start of Gabon
+
+.gabon {
+  background:
+  linear-gradient(to bottom, #009E60 calc(100% / 3), #FCD116 calc(100% / 3), #FCD116 calc(100% / 3 * 2), #3A75C4 calc(100% / 3 * 2));
+}
+
+// End of Gabon
+
+// Start of The Gambia
+
+.the-gambia {
+  background:
+  linear-gradient(to bottom, #CE1126 30%, white 30%, white 35%, #0C1C8C 35%, #0C1C8C 65%, white 65%, white 70%, #3A7728 70%);
+}
+
+// End of The Gambia
+
+// Start of Germany
+
+.germany {
+  background:
+  linear-gradient(to bottom, black calc(100% / 3), #DD0000 calc(100% / 3), #DD0000 calc(100% / 3 * 2), #FFCE00 calc(100% / 3 * 2));
+}
+
+// End of Germany
+
+// Start of Ghana
+
+.ghana {
+  background:
+  linear-gradient(to bottom, #CE1126 calc(100% / 3), #FCD116 calc(100% / 3), #FCD116 calc(100% / 3 * 2), #006B3F calc(100% / 3 * 2));
+  position: relative;
+}
+
+.ghana:before {
+  @include shape($content: '★');
+  @include center;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  top: calc(50% - 27px);
+}
+
+// End of Ghana
+
+// Start of Greece
+
+.greece {
+  background-image:
+  repeating-linear-gradient(to bottom, #0D5EAF, #0D5EAF calc(120px / 9), white calc(120px / 9), white calc(120px / 9 * 2));
+  position: relative;
+}
+
+.greece:before {
+  @include shape;
+  width: calc(120px / 9 * 5);
+  height: calc(120px / 9 * 5);
+  background:
+  linear-gradient(to bottom, transparent calc(120px / 9 * 2), white calc(120px / 9 * 2), white calc(120px / 9 * 3), transparent calc(120px / 9 * 3)),
+  linear-gradient(to right, transparent calc(120px / 9 * 2), white calc(120px / 9 * 2), white calc(120px / 9 * 3), transparent calc(120px / 9 * 3)),
+  #0D5EAF;
+}
+
+// End of Greece
+
+// Start of Guinea
+
+.guinea {
+  background:
+  linear-gradient(to right, #CE1126 calc(100% / 3), #FCD116 calc(100% / 3), #FCD116 calc(100% / 3 * 2), #009460 calc(100% / 3 * 2));
+}
+
+// End of Guinea
+
+// Start of Guinea
+
+.guinea-bissau {
+  background:
+  linear-gradient(to right, #CE1126 35%, transparent 35%),
+  linear-gradient(to bottom, #FCD116 50%, #009E49 50%);
+  position: relative;
+}
+
+.guinea-bissau:before {
+  @include shape($content: '★');
+  color: black;
+  font-size: 40px;
+  top: calc(50% - 27px);
+  left: 10px;
+}
+
+// End of Guinea
+
+// Start of Guyana
+
+.guyana {
+  background:
+  linear-gradient(149deg, #CE1126 24%, transparent 15%) 0 -60px,
+  linear-gradient(31deg, #CE1126 24%, transparent 15%) 0 -60px,
+  linear-gradient(149deg, black 26%, transparent 15%) 0 -60px,
+  linear-gradient(31deg, black 26%, transparent 15%) 0 -60px,
+  linear-gradient(160deg, #FCD116 32%, transparent 15%) 0 -60px,
+  linear-gradient(20deg, #FCD116 32%, transparent 15%) 0 -60px,
+  linear-gradient(161deg, white 34%, transparent 15%) 0 -60px,
+  linear-gradient(19deg, white 34%, transparent 15%) 0 -60px,
+  #009E49;
+}
+
+// End of Guyana

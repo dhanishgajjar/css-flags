@@ -1,0 +1,118 @@
+// Start of Tanzania
+
+.tanzania {
+  background:
+  linear-gradient(145deg,#1EB53A 40%, #FCD116 40%, #FCD116 43%, black 43%, black 57%, #FCD116 57%, #FCD116 60%, #00A3DD 60%);
+  position: relative;
+}
+
+// End of Tanzania
+
+// Start of Thailand
+
+.thailand {
+  background:
+  linear-gradient(to bottom, #ED1C24 15%, white 15%, white 30%, #241D4F 30%, #241D4F 70%, white 70%, white 85%, #ED1C24 85%);
+}
+
+// End of Thailand
+
+// Start of Togo
+
+.togo {
+  background:
+  repeating-linear-gradient(to bottom, #006A4E, #006A4E calc(100% / 5), #FFCE00 calc(100% / 5), #FFCE00 calc(100% / 5 * 2));
+  position: relative;
+}
+
+.togo:before {
+  @include shape($content: '★');
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 6px;
+  color: white;
+  background: #D21034;
+  height: 71px; width: 71px;
+}
+
+// End of Togo
+
+// Start of Tonga
+
+.tonga {
+  background:#C10000;
+  position: relative;
+}
+
+.tonga:before {
+  @include shape;
+  width: 50%;
+  height: 50%;
+  background:
+  linear-gradient(to bottom, transparent calc(100% / 3), #C10000 calc(100% / 3), #C10000 calc(100% / 3 * 2), transparent 0),
+  linear-gradient(to right, transparent calc(100% / 3), #C10000 calc(100% / 3), #C10000 calc(100% / 3 * 2), transparent 0),
+  white;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: 50% 10px;
+}
+
+// End of Tonga
+
+// Start of Trinidad and Tobago
+
+.trinidad-and-tobago {
+  background:
+  linear-gradient(45deg,transparent 40%, white 40%, white 43%, black 43%, black 57%, white 57%, white 60%, transparent 0),
+  #CE1126;
+}
+
+// End of Trinidad and Tobago
+
+// Start of Tunisia
+
+.tunisia {
+  background:
+  radial-gradient(60px at 55% 50%, white 35%, transparent 0),
+  radial-gradient(90px at 50% 50%, transparent 30%, white 30%, white 36%, transparent 0),
+  #E70013;
+  position: relative;
+}
+
+.tunisia:before {
+  @include shape($content: '★');
+  @include center;
+  font-size: 30px;
+  color: #E70013;
+  text-align: center;
+  top: 37px;
+  left: 23px;
+  transform: rotate(45deg);
+}
+
+// End of Tunisia
+
+// Start of Turkey
+
+.turkey {
+  background:
+  radial-gradient(77px at 40% 50%, #E30A17 35%, transparent 0),
+  radial-gradient(90px at 36% 50%, white 30%, white 36%, transparent 0),
+  #E30A17;
+  position: relative;
+}
+
+.turkey:before {
+  @include shape($content: '★');
+  @include center;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  top: 39px;
+  left: 28px;
+  transform: rotate(45deg);
+}
+
+
+// End of Turkey

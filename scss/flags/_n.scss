@@ -1,0 +1,168 @@
+// Start of Namibia
+
+.namibia {
+  background:
+  linear-gradient(146deg,#003580 45%, white 45%, white 50%, #D21034 50%, #D21034 60%, white 60%, white 65%, #009543 65%);
+  position: relative;
+}
+
+.namibia:before {
+  @include shape($content: '✹');
+  color: #FFCE00;
+  font-size: 64px;
+  left: 10px;
+}
+
+.namibia:after {
+  @include shape;
+  @include makeCircle;
+  height: 24px;
+  width: 24px;
+  background: #FFCE00;
+  border: 3px solid #003580;
+  top: 22px;
+  left: 20px;
+}
+
+// End of Namibia
+
+// Start of Nauru
+
+.nauru {
+  background:
+  linear-gradient(to bottom, transparent 45%, #FFC61E 45%, #FFC61E 55%, transparent 55% ),
+  #002B7F;
+  position: relative;
+}
+
+.nauru:before {
+  @include shape($content: '✹');
+  color: white;
+  font-size: 44px;
+  left: 30px;
+  top: 60px;
+}
+
+// End of Nauru
+
+// Start of Nepal
+
+.nepal {
+  background:
+  radial-gradient(44px at 16% 34%, #DC1038 0, #DC143C 35%, transparent 35%, transparent 100%),
+  radial-gradient(44px at 16% 39%, white 0, white 35%, transparent 35%, transparent 100%),
+  linear-gradient(40deg, #DC143C 30%, transparent 30%) 4px -6px,
+  linear-gradient(33deg, #DC143C 25%, transparent 25%) 4px -54px,
+  linear-gradient(40deg, #003893 36%, transparent 32%),
+  linear-gradient(33deg, #003893 30%, transparent 25%) 0px -50px;
+  background-size: 180px 120px;
+  position: relative;
+}
+
+.nepal:before {
+  @include shape($content: '✹');
+  color: white;
+  font-size: 48px;
+  bottom: 4px;
+  left: 10px;
+}
+
+.nepal:after {
+  @include shape($content: '✹');
+  color: white;
+  font-size: 28px;
+  top: 36px;
+  left: 18px;
+}
+
+// End of Nepal
+
+// Start of Netherlands
+
+.the-netherlands {
+  background:
+  linear-gradient(to bottom, #AE1C28 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #21468B calc(100% / 3 * 2));
+}
+
+// End of Netherlands
+
+// Start of New Zealand
+
+.new-zealand {
+  background:
+  #00247D;
+  background-size: 100px 100px;
+  position: relative;
+}
+
+.new-zealand:before {
+  @include shape;
+  top: 0;
+  left: 0;
+  background:
+  linear-gradient(to bottom, transparent 40%, #CC142B 40%, #CC142B 60%, transparent 60% ),
+  linear-gradient(to right, transparent 45%, #CC142B 45%, #CC142B 55%, transparent 55% ),
+  linear-gradient(to bottom, transparent 35%, white 35%,white 65%, transparent 65%),
+  linear-gradient(to right, transparent 40%, white 40%,white 60%, transparent 60%),
+  linear-gradient(146deg, transparent 50%, #CC142B 50%, #CC142B 53%, transparent 53%) -45px 31px,
+  linear-gradient(146deg, transparent 50%, #CC142B 50%, #CC142B 53%, transparent 53%) 46px -35px,
+  linear-gradient(34deg, transparent 50%, #CC142B 50%, #CC142B 53%, transparent 53%) -51px -31px,
+  linear-gradient(34deg, transparent 50%, #CC142B 50%, #CC142B 53%, transparent 53%) 48px 32px,
+  linear-gradient(146deg, transparent 45%, white 45%, white 55%, transparent 55%),
+  linear-gradient(34deg, transparent 45%, white 45%, white 55%, transparent 55%);
+  background-size: 90px 60px;
+  width: 90px; height: 60px;
+  background-repeat: no-repeat;
+}
+
+// End of New Zealand
+
+// Start of Niger
+
+.niger {
+  background:
+  radial-gradient(50px at 50% 50%, #E05206 0, #E05206 35%, transparent 35%, transparent 100%),
+  linear-gradient(to bottom, #E05206 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #0DB02B calc(100% / 3 * 2));
+}
+
+// End of Niger
+
+// Start of Nigeria
+
+.nigeria {
+  background:
+  linear-gradient(to right, #008751 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #008751 calc(100% / 3 * 2));
+}
+
+// End of Nigeria
+
+// Start of North Korea
+
+.north-korea {
+  background:
+  radial-gradient(80px at 35% 50%, white, white 35%, transparent 35%, transparent 100%),
+  linear-gradient(to bottom, #024FA2 15%, white 15%, white 20%, #ED1C27 20%, #ED1C27 80%, white 80%, white 85%, #024FA2 85% );
+  position: relative;
+}
+
+.north-korea:before {
+  @include shape($content: '★');
+  color: #ED1C27;
+  font-size: 48px;
+  left: 38px; top: 23px;
+}
+
+// End of North Korea
+
+// Start of Norway
+
+.norway {
+  background:
+  linear-gradient(to bottom, transparent 43%, #002868 43%, #002868 54%, transparent 54%),
+  linear-gradient(to right, transparent 28%, #002868 28%, #002868 37%, transparent 37%),
+  linear-gradient(to right, transparent 25%, white 25%, white 40%, transparent 40%),
+  linear-gradient(to bottom, transparent 38%, white 38%, white 59%, transparent 59%),
+  #EF2B2D;
+}
+
+// End of Norway

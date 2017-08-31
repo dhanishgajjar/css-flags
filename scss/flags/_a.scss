@@ -1,0 +1,76 @@
+// Start of Algeria
+
+.algeria {
+  background: linear-gradient(90deg, #006232, #006232 50%, white 50%, white 100%);
+  position: relative;
+}
+
+.algeria:before {
+  @include shape;
+  @include makeCircle;
+  @include center;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  box-shadow: -9px 0 0 8px #D21034;
+  top: 35px;
+  right: -10px;
+}
+
+.algeria:after {
+  @include shape($content: '\2605');
+  @include center;
+  color: #D21034;
+  font-size: 2em;
+  transform: rotate(20deg);
+  top: calc(50% - 12px);
+  left: calc(50% - 5px);
+}
+
+// End of Algeria
+
+// Start of Armenia
+
+.armenia {
+  background: linear-gradient(180deg,#D90012,#D90011 calc(100% / 3),#0033A0 calc(100% / 3), #0033A0 calc(100% / 3 * 2),#F2A800 calc(100% / 3 * 2), #F2A800 100%);
+}
+
+// End of Armenia
+
+// Start of Austria
+
+.austria {
+  background: linear-gradient(180deg,#ED2939,#ED2939 calc(100% / 3),white calc(100% / 3), white calc(100% / 3 * 2),#ED2939 calc(100% / 3 * 2), #ED2939 100%);
+}
+
+// End of Austria
+
+// Start of Azerbaijan
+
+.azerbaijan {
+  background: linear-gradient(180deg,#00b5e2,#00b5e2 calc(100% / 3),#ef3340 calc(100% / 3), #ef3340 calc(100% / 3 * 2),#509e2f calc(100% / 3 * 2), #509e2f 100%);
+  position: relative;
+}
+
+.azerbaijan:before {
+  @include shape;
+  @include makeCircle;
+  @include center;
+  background: transparent;
+  width: 30px;
+  height: 30px;
+  top: calc(50% - 15px);
+  left: -6px;
+  box-shadow: -4px 0 0 3px white;
+}
+
+.azerbaijan:after {
+  @include shape($content: '✸');
+  color: white;
+  font-size: 24px;
+  transform: rotate(22deg);
+  top: calc(50% - 13px);
+  left: 52%;
+}
+
+// End of Azerbaijan
