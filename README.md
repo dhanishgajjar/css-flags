@@ -194,7 +194,7 @@ I am using a few gulp plugins. To kick off run
 gulp
 ```
 
-will start a local server and watch over sass ans pug files
+will start a local server and watch over sass and pug files
 
 It is not automated but
 ```
