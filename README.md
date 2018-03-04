@@ -1,6 +1,8 @@
 Single Div Pure CSS Flags
 =========================
 
+[![Project Supported By CSSGrid.io](https://img.shields.io/badge/👍_Project_Supported_By-CSSGrid.ioTutorials-brightgreen.svg?style=flat-square)](https://CSSGrid.io/friend/DHANISH) [![Project Supported By Flexbox.io](https://img.shields.io/badge/👍_Project_Supported_By-Flexbox.ioTutorials-brightgreen.svg?style=flat-square)](https://Flexbox.io/friend/DHANISH)
+
 [Using the Library](#how-to-use-the-library)
 
 [Instructions for Developers](#instructions-for-developers)
@@ -41,15 +43,15 @@ Most of the flags were not possible in a single div, so they are not included, b
 | .armenia |
 | .austria |
 | .azerbaijan |
-| .bahamas | 
+| .bahamas |
 | .bahrain |
 | .bangladesh |
 | .barbados |
 | .belgium |
 | .benin |
-| .bolivia | 
+| .bolivia |
 | .botswana |
-| .brazil | 
+| .brazil |
 | .bulgaria |
 | .burkina-faso |
 | .burundi |
@@ -58,7 +60,7 @@ Most of the flags were not possible in a single div, so they are not included, b
 | .chad |
 | .chile |
 | .colombia |
-| .comoros | 
+| .comoros |
 | .costa-rica |
 | .cote-d-ivoire |
 | .cuba |
