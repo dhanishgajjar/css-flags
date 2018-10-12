@@ -6,12 +6,12 @@
   "author": "Dhanish Gajjar",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-clean-css": "^3.7.0",
     "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.0.0",
+    "gulp-connect": "^5.6.1",
     "gulp-pug": "^3.3.0",
     "gulp-ruby-sass": "^2.1.1",
-    "gulp-sourcemaps": "^2.6.1"
+    "gulp-sourcemaps": "^2.6.4"
   }
 }
