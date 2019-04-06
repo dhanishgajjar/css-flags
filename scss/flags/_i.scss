@@ -13,6 +13,29 @@
 
 // End of Iceland
 
+// Start of India 
+.india{
+   background: linear-gradient(to bottom, #FF9933 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #138808 calc(100% / 3 * 2));
+  position: relative;
+}
+.india:before{
+    position: absolute;
+    content: "✺";
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000080;
+    border-radius: 100%;
+    height: calc(100% / 3 - 5%);
+    left: calc(50% - 25px);
+    font-weight: 100;
+    color: #000080;
+    top: 35%;
+}
+// End of India
+
 // Start of Indonesia
 
 .indonesia {
