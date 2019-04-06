@@ -82,6 +82,7 @@ Most of the flags were not possible in a single div, so they are not included, b
 | .guyana |
 | .hungary |
 | .iceland |
+| .india |
 | .indonesia |
 | .iran |
 | .iraq |
