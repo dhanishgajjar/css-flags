@@ -11,7 +11,7 @@ Single Div Pure CSS Flags
 
 ## How to use the library
 
-[Grab the style.css](./css/style.css)
+Grab the compiled CSS from the `./dist` folder
 
 For the purpose of this personal project, first, I have an empty div with the class of "flag"
 
@@ -154,7 +154,7 @@ Most of the flags were not possible in a single div, so they are not included, b
 
 ## Instructions for Developers
 
-I am using Pug, Sass and Parcel
+I am using Pug, Sass and [Parcel](https://github.com/parcel-bundler/parcel)
 
 ### Folder Structure is simple.
 
