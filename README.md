@@ -154,16 +154,11 @@ Most of the flags were not possible in a single div, so they are not included, b
 
 ## Instructions for Developers
 
-I am using Pug, Sass and Gulp
+I am using Pug, Sass and Parcel
 
 ### Folder Structure is simple.
 
 ```
-├── css
-    ├── style.css
-    ├── style.css.map
-├── minified
-    ├── style.css
 ├── node_modules
 ├── scss
     ├── flags
@@ -177,8 +172,6 @@ I am using Pug, Sass and Gulp
     ├── _variables.scss
     ├── style.css
 ├── .gitignore
-├── gulpfile.js
-├── index.html
 ├── index.pug
 ├── package-lock.json
 ├── package.json
@@ -191,19 +184,18 @@ To install node modules run
 npm install
 ```
 
-I am using a few gulp plugins. To kick off run
+I am using Parcel.
 
 ```
-gulp
+npm run dev
 ```
 
 will start a local server and watch over sass and pug files
 
-It is not automated but
 ```
-gulp minify-css
+npm run build
 ```
-will compress the `./css/style.css` and saved it to the `./minified` folder
+will publish the build to `./dist` folder
 
 If you want to contribute, feel free to make a pull request. Or if you see any issues, you can open an issue.
 

@@ -6,12 +6,14 @@
   "author": "Dhanish Gajjar",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^4.0.0",
-    "gulp-clean-css": "^4.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.7.0",
-    "gulp-pug": "^4.0.1",
-    "gulp-ruby-sass": "^4.0.0",
-    "gulp-sourcemaps": "^2.6.5"
+    "pug": "^2.0.3",
+    "sass": "^1.19.0"
+  },
+  "dependencies": {
+    "parcel": "^1.12.3"
+  },
+  "scripts": {
+    "dev": "parcel index.pug",
+    "build": "parcel index.pug"
   }
 }
