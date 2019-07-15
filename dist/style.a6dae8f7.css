@@ -858,7 +858,7 @@ a {
 }
 
 .pakistan {
-  background: radial-gradient(90px at 71% 42%, #01411C, #01411C 35%, transparent 35%, transparent 100%), radial-gradient(100px at 65% 50%, white, white 35%, transparent 35%, transparent 100%), linear-gradient(to right, white 30%, #01411C 30%);
+  background: radial-gradient(90px at 71% 42%, #01411c, #01411c 35%, transparent 35%, transparent 100%), radial-gradient(100px at 65% 50%, white, white 35%, transparent 35%, transparent 100%), linear-gradient(to right, white 30%, #01411c 30%);
   position: relative;
 }
 
@@ -873,15 +873,16 @@ a {
 }
 
 .palau {
-  background: radial-gradient(100px at 40% 50%, #FFDE00, #FFDE00 35%, transparent 35%, transparent 100%), #4AADD6;
+  background: radial-gradient(100px at 40% 50%, #ffde00, #ffde00 35%, transparent 35%, transparent 100%), #4aadd6;
 }
 
 .panama {
-  background: linear-gradient(90deg, #005293 50%, transparent 50%), linear-gradient(#D21034 50%, transparent 50%), white;
+  background: linear-gradient(90deg, #005293 50%, transparent 50%), linear-gradient(#d21034 50%, transparent 50%), white;
   position: relative;
 }
 
-.panama:before, .panama:after {
+.panama:before,
+.panama:after {
   position: absolute;
   content: "★";
   box-sizing: border-box;
@@ -900,15 +901,32 @@ a {
 .panama:after {
   right: 0;
   bottom: 0;
-  color: #D21034;
+  color: #d21034;
 }
 
 .peru {
-  background: linear-gradient(to right, #D91023 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #D91023 calc(100% / 3 * 2));
+  background: linear-gradient(to right, #d91023 calc(100% / 3), white calc(100% / 3), white calc(100% / 3 * 2), #d91023 calc(100% / 3 * 2));
+}
+
+.phillippines {
+  background: linear-gradient(146deg, white 25%, transparent 15%) 0 -60px, linear-gradient(34deg, white 25%, transparent 15%) 0 -60px, linear-gradient(to bottom, #0035a9 50%, #d00922 50%);
+  background-size: 180px 120px;
+  position: relative;
+}
+.phillippines:before {
+  position: absolute;
+  content: "☀";
+  color: orange;
+  font-size: 2.25em;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  left: 5%;
+  height: 1em;
 }
 
 .poland {
-  background: linear-gradient(to bottom, white 50%, #DC143C 50%);
+  background: linear-gradient(to bottom, white 50%, #dc143c 50%);
 }
 
 .qatar {

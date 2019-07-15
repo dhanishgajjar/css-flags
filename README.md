@@ -118,6 +118,7 @@ Most of the flags were not possible in a single div, so they are not included, b
 | .palau |
 | .panama |
 | .peru |
+| .phillippines |
 | .poland |
 | .qatar |
 | .republic-of-china |
@@ -187,13 +188,13 @@ npm install
 I am using Parcel.
 
 ```
-npm run dev
+parcel index.pug
 ```
 
 will start a local server and watch over sass and pug files
 
 ```
-npm run build
+parcel build index.pug
 ```
 will publish the build to `./dist` folder
 

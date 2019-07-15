@@ -6,8 +6,8 @@
   "author": "Dhanish Gajjar",
   "license": "MIT",
   "devDependencies": {
-    "pug": "^2.0.3",
-    "sass": "^1.19.0"
+    "pug": "^2.0.4",
+    "sass": "^1.22.4"
   },
   "dependencies": {
     "parcel": "^1.12.3"
