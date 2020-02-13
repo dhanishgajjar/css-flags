@@ -10,7 +10,7 @@
     "sass": "^1.22.4"
   },
   "dependencies": {
-    "parcel": "^1.12.3"
+    "parcel": "^1.12.4"
   },
   "scripts": {
     "dev": "parcel index.pug",
