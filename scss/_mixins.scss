@@ -1,6 +1,5 @@
-
 // This is for creating empty / or specific psuedo objects
-@mixin shape($position: absolute, $content: '') {
+@mixin shape($position: absolute, $content: "") {
   position: $position;
   content: $content;
 }
